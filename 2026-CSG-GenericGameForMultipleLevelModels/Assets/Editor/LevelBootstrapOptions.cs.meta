@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: e68d0d80e3f28174a8b8ab86daa3bad0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_ViewDataDictionary: {instanceID: 0}
+  - core: {fileID: 2238189337828722003, guid: 32e10a842158aeb4eab936f47aab64c3, type: 3}
+  - portal: {fileID: 3377475458253640711, guid: 8420566031a823a42803e939432a1d55, type: 3}
+  - weaponPickup: {fileID: 5139737463651728906, guid: bbb482ff259072940a30e996d37f5d08, type: 3}
+  - healthPickup: {fileID: 1251725492960285883, guid: b245030beb2ca134497e0c8b74837bf1, type: 3}
+  - meleeEnemy: {fileID: 5788394302867336296, guid: 3cec4d72a28764e44a893341fe46aaf8, type: 3}
+  - rangedEnemy: {fileID: 6523471221024665028, guid: 31fcc3e68154f944dbc8a398c08177a4, type: 3}
+  - patrolPath: {fileID: 8074145019361051680, guid: e2ed71eb29ecf424385a34ef96fa9dcd, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
