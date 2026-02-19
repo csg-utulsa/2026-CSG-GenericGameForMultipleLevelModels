@@ -51,6 +51,8 @@ public class LevelBootstrapOptions : EditorWindow
         DrawSpawnPointUI();
 
         GUILayout.Space(25);
+
+        GUILayout.Label("Select Assets to Spawn", EditorStyles.boldLabel);
         DrawCoreUI();
 
         DrawPortalsUI();
@@ -192,7 +194,7 @@ public class LevelBootstrapOptions : EditorWindow
         {
             EditorGUI.indentLevel++;
 
-            shouldSpawnWeaponPickups = EditorGUILayout.Toggle("Spawn Pickups", shouldSpawnWeaponPickups);
+            shouldSpawnWeaponPickups = EditorGUILayout.Toggle("Spawn Weapon Pickups", shouldSpawnWeaponPickups);
             if (shouldSpawnWeaponPickups)
             {
                 EditorGUI.indentLevel++;
@@ -200,7 +202,7 @@ public class LevelBootstrapOptions : EditorWindow
                 EditorGUI.indentLevel--;
             }
 
-            shouldSpawnHealthPickups = EditorGUILayout.Toggle("Spawn Pickups", shouldSpawnHealthPickups);
+            shouldSpawnHealthPickups = EditorGUILayout.Toggle("Spawn Health Pickups", shouldSpawnHealthPickups);
             if (shouldSpawnHealthPickups)
             {
                 EditorGUI.indentLevel++;
